@@ -22,6 +22,10 @@ x=-1
 if x<0:
     raise Exception("Sorry, below zero")
 
+#    raise Exception("Sorry, below zero")
+#Exception: Sorry, below zero
+
+
 #define what kind of error to raise
 #raise a TypeError if x not int
 x='hi'
