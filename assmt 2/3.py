@@ -28,7 +28,7 @@ def checkPass(password):
     if flag:
         return flag
 
-password = input("Enter")
+password = input("Enter password: ")
 if (checkPass(password)):
     print("Password is valid")
 else:
